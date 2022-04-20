@@ -5,7 +5,7 @@ import models
 from torchvision import transforms
 import random
 
-# This is the DEMO version the of capstone team F : AI,GO DOODLE!
+# This is the DEMO version of the capstone team F : AI,GO DOODLE!
 # We used 50 classes for the model classification on this DEMO
 #   which is trained on Quick, Draw! dataset with resnet34
 # The DEMO provides three functionalities
