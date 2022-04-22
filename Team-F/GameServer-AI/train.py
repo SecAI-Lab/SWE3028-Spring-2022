@@ -90,7 +90,7 @@ def train(model,train_loader=None,val_loader=None,epochs=50,learning_rate=1e-4,t
     
     if min_val_loss==-1 or min_val_loss>val_loss:
       min_val_loss=val_loss
-      torch.save(model.state_dict(),paths.pt)
+      torch.save(model.state_dict(),paths+'/exp.pt')
     
     print(f'Epoch: {epoch}/{epochs}')
     print(f'\tTraining Loss:{train_loss:.4f} | Validation Loss:{val_loss:.4f} | Training Acc:{100*train_acc:.4f}% | Validation Acc:{100*val_acc:.4f}% \tTime :{(end-start)/60:.1f}min')
