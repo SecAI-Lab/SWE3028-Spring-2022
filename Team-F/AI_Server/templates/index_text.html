@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2> ai server test </h2>
+
+    <form action="/" method="POST">
+        <label for="lname">이름:</label><br>
+        <input type="text" id="lname" name="name" style="width:500px;height:30px;font-size:15px;"><br><br>
+        <input type="submit" value="확인">
+    </form>
+
+    {% if prediction %}
+        <p class="text-center">Image is a {{prediction}}</p>
+    {% endif %}
+
+</body>
+</html>
