@@ -1,0 +1,25 @@
+bee
+cannon
+car
+drill
+dumbbell
+fence
+flower
+grapes
+hockey stick
+ice cream
+moon
+mouth
+octopus
+paper clip
+pencil
+sandwich
+saw
+shovel
+stairs
+sweater
+table
+television
+tree
+umbrella
+windmill
